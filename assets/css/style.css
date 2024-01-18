@@ -9,7 +9,12 @@ body {
   color: #ece441;
 }
 h1 {
+  display: none;
   font-weight: bold;
 }
 h2 {
+}
+
+.logo {
+  translate: -40px -40px;
 }
