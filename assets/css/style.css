@@ -1,14 +1,15 @@
 body {
-  background-color: lightblue;
-  color: orange;
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(1, 17, 65);
+  background-image: url("../images/body-bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #ece441;
 }
 h1 {
-  color: aquamarine;
-  font-family: "Open Sans", sans-serif;
   font-weight: bold;
 }
 h2 {
-  color: blue;
-  font-family: "Open Sans", sans-serif;
-  font-family: "Roboto", sans-serif;
 }
