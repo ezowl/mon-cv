@@ -18,3 +18,37 @@ h2 {
 .logo {
   translate: -40px -40px;
 }
+
+.section-header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+
+  gap: 1rem;
+}
+
+/* .section-header img {
+  position: relative;
+  top: -10px;
+  left: 15px;
+} */
+
+.section-header h2 {
+  position: relative;
+  padding-left: 2rem;
+  border-bottom: 3px solid;
+}
+
+.section-header h2::before {
+  content: "";
+
+  position: absolute;
+  bottom: -5px;
+  left: -5px;
+
+  display: block;
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+  background-color: #ece441;
+}
